@@ -1,0 +1,37 @@
+{
+  "name": "delimooapi",
+  "version": "0.0.1",
+  "description": "Delimoo Delivery API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "Mongodb"
+  ],
+  "author": "nayhtet",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.0.0",
+    "body-parser": "1.19.0",
+    "busboy": "0.3.1",
+    "cors": "2.8.5",
+    "cron": "1.8.2",
+    "date-fns": "2.10.0",
+    "date-fns-tz": "1.0.10",
+    "deep-equal": "2.0.3",
+    "express": "4.17.1",
+    "file-regex": "3.1.0",
+    "jsonwebtoken": "8.5.1",
+    "moment-timezone": "0.5.27",
+    "mongodb": "3.6.6",
+    "nanoid": "3.1.20",
+    "node-fetch": "2.6.1",
+    "query-string": "6.10.1",
+    "redis": "2.8.0",
+    "socket.io": "4.0.0",
+    "tz-offset": "0.0.2"
+  }
+}
