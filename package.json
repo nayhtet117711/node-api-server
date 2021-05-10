@@ -1,7 +1,7 @@
 {
-  "name": "delimooapi",
-  "version": "0.0.1",
-  "description": "Delimoo Delivery API",
+  "name": "@liftsm/node-api-server",
+  "version": "1.0.0",
+  "description": "Node API Server",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -33,5 +33,14 @@
     "redis": "2.8.0",
     "socket.io": "4.0.0",
     "tz-offset": "0.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayhtet117711/node-api-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nayhtet117711/node-api-server/issues"
+  },
+  "homepage": "https://github.com/nayhtet117711/node-api-server#readme"
 }
